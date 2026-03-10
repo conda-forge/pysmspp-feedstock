@@ -23,6 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - pandas >=0.24
+    - pathlib
     - netcdf4
     - psutil
     - matplotlib >=3.0
