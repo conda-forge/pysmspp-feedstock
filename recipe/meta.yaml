@@ -1,5 +1,5 @@
 {% set name = "pysmspp" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c1be637535dbb842e1fc51aa408a0720056a98f2ea74e4e4c8c6befce1d3d3be
+  sha256: c327dc74e7edf61bdb81ddb3a1f4ce3f8874e588ac20d0e8d52a1c5b741ec6c2
 
 build:
   noarch: python
