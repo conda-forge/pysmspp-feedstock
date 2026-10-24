@@ -1,5 +1,5 @@
 {% set name = "pysmspp" %}
-{% set version = "0.0.14" %}
+{% set version = "0.1.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 89204fcce9365c9eae6f572b8077084464434fa48d168e2f0232729c7ac63f28
+  sha256: 6f685ec26acea51bca30292ec1b6713b6a27fb73c8e9ea31764251705579d487
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
